@@ -22,6 +22,7 @@ public class Developer implements Person {
     private String linkedIn;
     private String gitHub;
     private String resumeLink;
+    @Column(columnDefinition = "TEXT")
     private String introduction;
     
     @JsonManagedReference("developer-projects")

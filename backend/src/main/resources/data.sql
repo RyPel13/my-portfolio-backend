@@ -4,7 +4,7 @@ VALUES ('Ryan Pelto', 'ryanpelto13@gmail.com',
         'https://www.linkedin.com/in/ryan-pelto-48a6341a1/', 
         'https://github.com/RyPel13', 
         'https://drive.google.com/file/d/15SncLhotIlNiiBhKCCRkQdxcOjifFUe0/view',
-        'I am an information technology student passionate about software development and data structures.');
+        'I am an Information Technology student with a strong passion for software development and data structures. My experience includes software and user-interface testing, analyzing business and customer requirements, and working with large-scale ERP systems to develop meaningful SQL queries that resolve customer issues and support enterprise decision-making. I also have experience designing and implementing database structures, as well as building data warehouses for large-scale data ingestion and analysis.');
 
 -- Projects
 INSERT INTO PROJECT (title, description, github_link, language, category, developer_id)
@@ -73,4 +73,4 @@ INSERT INTO GOAL (title, summary, timeline, achieved, developer_id)
 VALUES ('Information Systems Design and Database Concepts', 'Designed a 3NF-normalized relational database and built a data warehouse for a hotel system.', 'December 2025', true, 1);
 
 INSERT INTO GOAL (title, summary, timeline, achieved, developer_id)
-VALUES ('Java Object-Oriented Programming', 'Built and implemented many different java applications.', 'May 2026', false, 1);
+VALUES ('Java Object-Oriented Programming', 'Built and implemented many different java applications.', 'May 2026', true, 1);
