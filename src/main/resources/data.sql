@@ -4,12 +4,11 @@ VALUES ('Ryan Pelto', 'ryanpelto13@gmail.com',
         'https://www.linkedin.com/in/ryan-pelto-48a6341a1/', 
         'https://github.com/RyPel13', 
         'https://drive.google.com/file/d/15SncLhotIlNiiBhKCCRkQdxcOjifFUe0/view',
-        'I am an information technology student passionate about software development and data structures.');
-
+        'I am an Information Technology student with a strong passion for software development and data structures. My professional background includes experience as a Business Systems Analyst, where I leveraged data analysis and SQL queries to uncover insights and translate business needs into actionable requirements. I am driven by both backend and frontend development, with hands-on expertise in Java Spring Boot and JavaScript React. Additionally, I have designed and implemented fully functional relational databases and data warehouses to support data-driven managerial and financial decision-making.');
 -- Projects
 INSERT INTO PROJECT (title, description, github_link, language, category, developer_id)
-VALUES ('Personal Fitness Application', 'Built a full personal fitness planning application in Java featuring a deep, multi-level class hierarchy.', 
-        'https://github.com/RyPel13/Personal-Fitness-Application', 'Java', 'Java Application', 1);
+VALUES ('Personal Fitness/Physical Therapy Application', 'Built a full personal fitness planning application in Java featuring a deep, multi-level class hierarchy.', 
+        'http://localhost:3000/fitness', 'Java', 'Java Application', 1);
         
 INSERT INTO PROJECT (title, description, github_link, language, category, developer_id)
 VALUES ('Video Rental System', 'Designed and implemented a multi-class video rental system in Java, modeling real-world rental operations for DVDs, Blu-rays, and video games using core OOP principles.', 
