@@ -7,9 +7,9 @@ VALUES ('Ryan Pelto', 'ryanpelto13@gmail.com',
         'I am an Information Technology student with a strong passion for software development and data structures. My experience includes software and user-interface testing, analyzing business and customer requirements, and working with large-scale ERP systems to develop meaningful SQL queries that resolve customer issues and support enterprise decision-making. I also have experience designing and implementing database structures, as well as building data warehouses for large-scale data ingestion and analysis.');
 
 -- Projects
-INSERT INTO PROJECT (title, description, github_link, language, category, developer_id)
-VALUES ('Personal Fitness Application', 'Built a full personal fitness planning application in Java featuring a deep, multi-level class hierarchy.', 
-        'https://github.com/RyPel13/Personal-Fitness-Application', 'Java', 'Java Application', 1);
+INSERT INTO PROJECT (title, description, github_link, language, category, app_route, developer_id)
+VALUES ('Personal Fitness Application', 'Built a full personal fitness planning application in Java featuring a deep, multi-level class hierarchy.',
+        'https://github.com/RyPel13/Personal-Fitness-Application', 'Java', 'Java Application', '/fitness', 1);
         
 INSERT INTO PROJECT (title, description, github_link, language, category, developer_id)
 VALUES ('Video Rental System', 'Designed and implemented a multi-class video rental system in Java, modeling real-world rental operations for DVDs, Blu-rays, and video games using core OOP principles.', 

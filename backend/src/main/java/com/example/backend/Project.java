@@ -18,6 +18,7 @@ public class Project {
     private String githubLink;
     private String language;
     private String category;
+    private String appRoute;
     
     @JsonBackReference("developer-projects")
     @ManyToOne
@@ -45,6 +46,7 @@ public class Project {
     public String getGithubLink() { return githubLink; }
     public String getLanguage() { return language; }
     public String getCategory() { return category; }
+    public String getAppRoute() { return appRoute; }
     public Developer getDeveloper() { return developer; }
 
     // setters
@@ -53,5 +55,6 @@ public class Project {
     public void setGithubLink(String githubLink) { this.githubLink = githubLink; }
     public void setLanguage(String language) { this.language = language; }
     public void setCategory(String category) { this.category = category; }
+    public void setAppRoute(String appRoute) { this.appRoute = appRoute; }
     public void setDeveloper(Developer developer) { this.developer = developer; }
 }
